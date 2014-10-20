@@ -3,17 +3,41 @@ using System.Collections;
 
 public class screenActor : MonoBehaviour {
 
-    public actorManager m_manager;
+    private Color GetlayerColor()
+    {
+        string layer = LayerMask.LayerToName(gameObject.layer);
+
+        if (layer == "worldA")
+        {
+            return Color.red;
+        }
+        if (layer == "worldB")
+        {
+            return Color.blue;
+        }
+        if (layer == "worldC")
+        {
+            return Color.yellow;
+        }
+        if (layer == "worldD")
+        {
+            return Color.green;
+        }
+
+        return Color.grey;
+    }
 
 	// Use this for initialization
 	void Start () {
 
+        /*
         Material temp = m_manager.GetlayerMaterial(
             LayerMask.LayerToName(gameObject.layer));
+         * */
         
 
         //ホログラムを作成
-        CreateHologram( temp );
+        CreateHologram(GetlayerColor());
 
 	}
 	
@@ -24,7 +48,7 @@ public class screenActor : MonoBehaviour {
 	}
 
     //holoレイヤーにオブジェクトのコピーを作成
-    private void CreateHologram( Material mat)
+    private void CreateHologram( Color col)
     {
         GameObject New = new GameObject();
         New.name = gameObject.name + "(Hologram)";
@@ -35,7 +59,7 @@ public class screenActor : MonoBehaviour {
         New.AddComponent<MeshFilter>().mesh = gameObject.GetComponent<MeshFilter>().mesh;
 
         //マテリアルの設定
-        New.renderer.material = mat;
+        New.renderer.material.color = col;
 
         //親に
         New.transform.parent = gameObject.transform;

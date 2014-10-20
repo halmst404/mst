@@ -46,7 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Script\actorManager.cs" />
      <Compile Include="Assets\Script\aspectFit.cs" />
      <Compile Include="Assets\Script\screenActor.cs" />
      <Compile Include="Assets\Tidy Tile Mapper\API Examples\LevelGeneration\LevelGenerator.cs" />
@@ -86,7 +85,6 @@
      <Compile Include="Assets\Tidy Tile Mapper\Tidy Streaming Maps\StreamingMap.cs" />
      <Compile Include="Assets\Tidy Tile Mapper\Tidy Streaming Maps\StreamingMapColorProfile.cs" />
      <Compile Include="Assets\Tidy Tile Mapper\Tidy Streaming Maps\StreamingMapNode.cs" />
-     <Compile Include="Assets\tyotest.cs" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Tidy Tile Mapper\readme.txt" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
