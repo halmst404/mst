@@ -3,7 +3,7 @@ using System.Collections;
 
 public class actorManager : MonoBehaviour {
 
-    public static Material m_WorldA_Material;    //Aのホログラムの色
+    public Material m_WorldA_Material;    //Aのホログラムの色
     public Material m_WorldB_Material;
     public Material m_WorldC_Material;
     public Material m_WorldD_Material;
