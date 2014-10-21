@@ -11,12 +11,12 @@ GameObject:
   - 114: {fileID: 11400000}
   - 65: {fileID: 6500000}
   m_Layer: 0
-  m_Name: Block_8
+  m_Name: Block_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &400000
 Transform:
   m_ObjectHideFlags: 1
@@ -116,10 +116,9 @@ MonoBehaviour:
     rotation: {x: 0, y: 0, z: 0}
     isDefaultSet: 0
   Centre_Alone:
-    rootObject: {fileID: 100000}
+    rootObject: {fileID: 0}
     currentBlockIndex: 0
-    blockSet:
-    - {fileID: 100000, guid: 9939d18d885e8ee4396433d1546f5b17, type: 2}
+    blockSet: []
     currentObject: {fileID: 0}
     offset: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
