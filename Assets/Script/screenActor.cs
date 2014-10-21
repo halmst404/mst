@@ -30,10 +30,6 @@ public class screenActor : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-        /*
-        Material temp = m_manager.GetlayerMaterial(
-            LayerMask.LayerToName(gameObject.layer));
-         * */
         
 
         //ホログラムを作成
@@ -59,6 +55,7 @@ public class screenActor : MonoBehaviour {
         New.AddComponent<MeshFilter>().mesh = gameObject.GetComponent<MeshFilter>().mesh;
 
         //マテリアルの設定
+        New.renderer.material = Resources.Load<Material>( "holo" );
         New.renderer.material.color = col;
 
         //親に
