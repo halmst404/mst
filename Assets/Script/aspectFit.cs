@@ -7,7 +7,7 @@ public class aspectFit : MonoBehaviour {
 	void Start () {
 
         transform.localScale = new Vector3(Camera.main.aspect, 1, 1);
-        Debug.Log(Camera.main.aspect);
+        //Debug.Log(Camera.main.aspect);
 	}
 	
 	// Update is called once per frame

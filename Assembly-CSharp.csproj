@@ -49,6 +49,7 @@
      <Compile Include="Assets\JMO Assets\MatCap Shaders\Demo\Assets\MC_AutoRotate.cs" />
      <Compile Include="Assets\JMO Assets\MatCap Shaders\Demo\Assets\MC_SwitchTexture.cs" />
      <Compile Include="Assets\Script\aspectFit.cs" />
+     <Compile Include="Assets\Script\manager.cs" />
      <Compile Include="Assets\Script\screenActor.cs" />
      <Compile Include="Assets\Tidy Tile Mapper\API Examples\LevelGeneration\LevelGenerator.cs" />
      <Compile Include="Assets\Tidy Tile Mapper\API Examples\LevelGeneration\LevelGenerators\PerlinGenerator.cs" />

@@ -30,8 +30,6 @@ public class screenActor : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-        
-
         //ホログラムを作成
         CreateHologram(GetlayerColor());
 
@@ -39,8 +37,6 @@ public class screenActor : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
-     
 	}
 
     //holoレイヤーにオブジェクトのコピーを作成
