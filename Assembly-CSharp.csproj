@@ -89,7 +89,6 @@
      <Compile Include="Assets\Tidy Tile Mapper\Tidy Streaming Maps\StreamingMapColorProfile.cs" />
      <Compile Include="Assets\Tidy Tile Mapper\Tidy Streaming Maps\StreamingMapNode.cs" />
      <Compile Include="Assets\keyMove.cs" />
-     <Compile Include="Assets\tyotest.cs" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\JMO Assets\MatCap Shaders\Shaders\MatCap_TextureAdd_Bumped.shader" />
      <None Include="Assets\JMO Assets\MatCap Shaders\Shaders\MatCap_TextureMult_Bumped.shader" />
