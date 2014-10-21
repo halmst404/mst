@@ -51,6 +51,7 @@
      <Compile Include="Assets\JMO Assets\MatCap Shaders\Demo\Assets\MC_AutoRotate.cs" />
      <Compile Include="Assets\JMO Assets\MatCap Shaders\Demo\Assets\MC_SwitchTexture.cs" />
      <Compile Include="Assets\Script\aspectFit.cs" />
+     <Compile Include="Assets\Script\keyMove.cs" />
      <Compile Include="Assets\Script\manager.cs" />
      <Compile Include="Assets\Script\screenActor.cs" />
      <Compile Include="Assets\Tidy Tile Mapper\API Examples\LevelGeneration\LevelGenerator.cs" />
@@ -90,7 +91,6 @@
      <Compile Include="Assets\Tidy Tile Mapper\Tidy Streaming Maps\StreamingMap.cs" />
      <Compile Include="Assets\Tidy Tile Mapper\Tidy Streaming Maps\StreamingMapColorProfile.cs" />
      <Compile Include="Assets\Tidy Tile Mapper\Tidy Streaming Maps\StreamingMapNode.cs" />
-     <Compile Include="Assets\keyMove.cs" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\JMO Assets\MatCap Shaders\Shaders\MatCap_TextureAdd_Bumped.shader" />
      <None Include="Assets\JMO Assets\MatCap Shaders\Shaders\MatCap_TextureMult_Bumped.shader" />
