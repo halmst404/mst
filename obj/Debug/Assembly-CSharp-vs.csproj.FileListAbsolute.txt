@@ -1,0 +1,11 @@
+D:\mst-hub\mst\Temp\bin\Debug\Assembly-CSharp.dll
+D:\mst-hub\mst\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\mst-hub\mst\Temp\bin\Debug\UnityEditor.dll
+D:\mst-hub\mst\Temp\bin\Debug\UnityEngine.dll
+D:\mst-hub\mst\Temp\bin\Debug\Mono.Cecil.dll
+D:\mst-hub\mst\Temp\bin\Debug\nunit.framework.dll
+D:\mst-hub\mst\Temp\bin\Debug\Unity.DataContract.dll
+D:\mst-hub\mst\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+D:\mst-hub\mst\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+D:\mst-hub\mst\obj\Debug\Assembly-CSharp.dll
+D:\mst-hub\mst\obj\Debug\Assembly-CSharp.pdb
